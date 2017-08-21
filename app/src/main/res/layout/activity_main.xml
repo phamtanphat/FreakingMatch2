@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#234969"
+    tools:context="com.ptp.phamtanphat.freakingmatch2.MainActivity">
+
+    <TextView
+        android:textColor="#ffff"
+        android:textStyle="bold"
+        android:layout_marginRight="5dp"
+        android:id="@+id/textviewdiem"
+        android:layout_gravity="right"
+        android:text="0"
+        android:textSize="30sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <SeekBar
+        android:progressTint="#ffff"
+        android:thumb="@android:color/transparent"
+        android:id="@+id/seekbartime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:gravity="center"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/textviewsothu1"
+            android:textColor="#ffff"
+            android:textSize="80sp"
+            android:text="22"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+        <TextView
+            android:gravity="center"
+            android:id="@+id/textviewpheptinh"
+            android:textColor="#ffff"
+            android:textSize="80sp"
+            android:text="*"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+        <TextView
+            android:gravity="center"
+            android:id="@+id/textviewsothu2"
+            android:textColor="#ffff"
+            android:textSize="80sp"
+            android:text="10"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/textviewketqua"
+        android:textColor="#ffff"
+        android:textSize="80sp"
+        android:text=" = 220"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageButton
+            android:scaleType="fitXY"
+            android:background="@android:color/transparent"
+            android:src="@drawable/icontrue"
+            android:textColor="#4082d4"
+            android:textSize="50sp"
+            android:text="22"
+            android:id="@+id/imagebuttontrue"
+            android:layout_width="150dp"
+            android:layout_height="150dp" />
+        <ImageButton
+            android:scaleType="fitXY"
+            android:background="@android:color/transparent"
+            android:src="@drawable/iconfalse"
+            android:layout_marginLeft="20dp"
+            android:textColor="#4082d4"
+            android:textSize="50sp"
+            android:text="10"
+            android:id="@+id/imagebuttonfalse"
+            android:layout_width="150dp"
+            android:layout_height="150dp" />
+    </LinearLayout>
+
+</LinearLayout>
