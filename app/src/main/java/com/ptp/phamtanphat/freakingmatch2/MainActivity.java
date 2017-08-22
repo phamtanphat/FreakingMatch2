@@ -30,16 +30,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void checkdapan() {
-        imgtrue.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                if (ramdomtruefalse == true){
-                    Toast.makeText(MainActivity.this, "Dung roi", Toast.LENGTH_SHORT).show();
-                }else {
-                    Toast.makeText(MainActivity.this, "Sai roi", Toast.LENGTH_SHORT).show();
-                }
-            }
-        });
+
         imgfalse.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
